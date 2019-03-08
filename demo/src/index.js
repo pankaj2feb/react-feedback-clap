@@ -6,7 +6,7 @@ import Example from '../../src'
 class Demo extends Component {
   render() {
     return <div>
-      <h1>reusable-ui-component Demo</h1>
+      <h1>react-feedback-clap Demo</h1>
       <Example/>
     </div>
   }

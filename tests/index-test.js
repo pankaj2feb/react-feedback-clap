@@ -17,7 +17,11 @@ describe('Component', () => {
 
   it('displays a welcome message', () => {
     render(<Component/>, node, () => {
-      expect(node.innerHTML).toContain('Welcome to React components')
+      node.click();
+      setTimeout(()=>{
+        expect(node.querySelector('.counter').innerHTML).toMatch('1');
+      }, 100);
+      
     })
   })
 })
