@@ -16,3 +16,6 @@ Describe react-feedback-clap here.
 [coveralls]: https://coveralls.io/github/user/repo
 
 React-feedback-clap component is reusable component. It can be used for getting feedback for any content on website.
+
+npm install
+npm start
