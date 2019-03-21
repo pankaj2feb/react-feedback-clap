@@ -18,4 +18,4 @@ Describe react-feedback-clap here.
 React-feedback-clap component is reusable component. It can be used for getting feedback for any content on website.
 
 * npm install                                                                                                                             
-* npm start
+* nwb serve-react-demo
